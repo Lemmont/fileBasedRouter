@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "NodeNext",
+    "removeComments": true,
+    "sourceMap": false,
+
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "resolveJsonModule": true,
+
+    "skipLibCheck": true,
+    "allowJs": true,
+    // "checkJs": true,
+
+    "strict": false
+  },
+  "include": ["src", "src/custom.d.ts"],
+  "exclude": ["node_modules", "dist/*", "src/static"],
+  "lib": ["es6"]
+}
